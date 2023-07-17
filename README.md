@@ -1,10 +1,10 @@
 # DevOps Interview Questions for Juniors
-> DevOps Interview Questions and answers for juniors DevOps Engineers 
+> DevOps Interview Questions and Answers for Junior DevOps Engineers 
 
 **Disclaimer:**
-- You are welcome to edit and add Questions/answer through Pull Request
-- These questions is for the Junior/beginner in the DevOps field
-- This questions is not for specific company/entity , this cover the most popular DevOps tools and this tools may vary from company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
+- You are welcome to edit and add Questions/answers through Pull Request
+- These questions are for the Junior/beginner in the DevOps field
+- These questions are not for specific company/entity , this cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
 
 ## AWS Questions:
 
@@ -18,7 +18,7 @@
  2. **What’s VPC?**
 A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center.
 
-3. **What’s S3 bucket and types of it?**
+3. **What’s S3 bucket and what types of it?**
 Amazon S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
 
 	***Types(storage classes):***
@@ -27,45 +27,45 @@ Amazon S3 is an object storage service that stores data as objects within bucket
 	- S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) for less frequently accessed data,
 	- S3 Glacier
 
-4. **Is there difference between SG and NACL?**
-Security groups are associated with an instance of a service. It can be associated with one or more security groups which has been created by the user. (Stateful)
-Security group can be understood as a firewall to protect EC2 instances.
+4. **Is there a difference between SG and NACL?**
+Security groups are associated with an instance of a service. It can be associated with one or more security groups that have been created by the user. (Stateful)
+A security group can be understood as a firewall to protect EC2 instances.
 NACL can be understood as the firewall or protection for the subnet. (stateless)
 
-5. **What’s difference between Public Subnet and Private Subnet?**
+5. **What’s the difference between Public Subnet and Private Subnet?**
 The instances in the public subnet can send outbound traffic directly to the internet.(Via Internet Gatway).
 Whereas the instances in the private subnet can't. Instead, the instances in the private subnet can access the internet by using a network address translation (NAT) gateway that resides in the public subnet.
 
-6. **How can an application access internet without received requests from internet?**
+6. **How can an application access internet without receiving requests from the internet?**
 Using NAT configured in the Routing Table.
 The database servers can connect to the internet for software updates using the NAT gateway, but the internet cannot establish connections to the database servers.
 
   
-7. **Design Architecture for web application contain 3 tiers: Frontend, Backend and Database?**
+7. **Design Architecture for web application contains 3 tiers: Frontend, Backend, and Database?**
 
   **![Diagram**
 Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.002.jpeg)
 
   
 
-8. **How you can cost optimizae  your infrastructure?**
-obtaining the best pricing and terms for IT purchases, standardizing, simplifying and rationalizing assets such as platforms and applications, as well as processes and services, automating and digitalizing both the IT and business operations. Monitor billing · Reduce manual processes
+8. **How you can cost optimize  your infrastructure?**
+obtaining the best pricing and terms for IT purchases, standardizing, simplifying, and rationalizing assets such as platforms and applications, as well as processes and services, automating and digitalizing both the IT and business operations. Monitor billing · Reduce manual processes
 
   
 
 	**On AWS** : 
-	- stop guessing capacity (use Auto scaling Group).
+	- stop guessing capacity (use Autoscaling Group).
 	- Choose the right pricing models.
-	- Use Reserved Instances (RI) to reduce RDS, Redshift, ElastiCache and Elasticsearch costs.
+	- Use Reserved Instances (RI) to reduce RDS, Redshift, ElastiCache, and Elasticsearch costs.
 	- Match Capacity with Demand.
-	- Identify Amazon EC2 instances with low-utilization and reduce cost by stopping or rightsizing.
+	- Identify Amazon EC2 instances with low utilization and reduce cost by stopping or rightsizing.
 	- Implement processes to identify resource waste.
 
   
 
-9. **What are types of Database engine on AWS?**
+9. **What are the types of Database engines on AWS?**
 	- Amazon RDS is available on several database instance types - optimized for memory, performance or I/O – and provides you with **six familiar database engines** to choose from, including: 
-Amazon Aurora , PostgreSQL , MySQL , MariaDB , Oracle Database , and SQL Server .
+Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server .
 	- Ledger: Amazon Quantum Ledger Database (Amazon QLDB)
 	- Document: Amazon DocumentDB (with MongoDB compatibility)
 	- No SQL: DynamoDB
@@ -74,14 +74,14 @@ Amazon Aurora , PostgreSQL , MySQL , MariaDB , Oracle Database , and SQL Server 
 
   
 
-10. **What’s difference between AWS Shield vs AWS WAF vs AWS Guard-Duty?**
+10. **What’s the difference between AWS Shield vs AWS WAF vs AWS Guard-Duty?**
 
-	**Shield** is DDoS protection and also located "at the edge".
+	**Shield** is DDoS protection and is also located "at the edge".
 
 	**AWS WAF** focuses on Layer 7 protection(Application Layer)
 Your subscription to Shield Advanced covers the basic AWS WAF fees for web ACLs, rules, and web requests.
 
-	**GuardDuty** is intelligent threat detection. That means without much configuration, it reads your CloudTrail, Config and VPC FlowLogs and notifies if something unexpected happened.
+	**GuardDuty** is intelligent threat detection. That means without much configuration, it reads your CloudTrail, Config, and VPC FlowLogs and notifies you if something unexpected happened.
 
 	**Amazon Inspector** is more for applications. It's an automated security assessment service that helps improve the security and compliance of applications.
 
@@ -94,35 +94,35 @@ Your subscription to Shield Advanced covers the basic AWS WAF fees for web ACLs,
 
   
 12. **Is it possible to host an application on S3?**
-Only can host a static website on Amazon S3.
+Only one can host a static website on Amazon S3.
 by configuring your bucket for website hosting and then uploading your content to the bucket.
 
   
 
 13. **What’s SSM ?**
-Amazon EC2 Simple Systems Manager (SSM) is : tool that allows an IT professional to automatically configure virtual servers in a cloud or in on-premises data center. Need to install agent
+Amazon EC2 Simple Systems Manager (SSM) is a tool that allows an IT professional to automatically configure virtual servers in a cloud or in an on-premises data center. Need to install an agent.
 
   
 
 14. **What is the difference between Latency Based Routing and Geo DNS in Route53?**
-Amazon maps-out typical latency between IP addresses and AWS regions.
+Amazon maps out typical latency between IP addresses and AWS regions.
 	- Choose Latency-based Routing to have the fastest response.
 	- Geolocation maps the IP addresses to geographic locations. This permits rules like "send all users from Côte d'Ivoire to the website in France", so they see a language-specific version.
 
   
 
 15. **What is RTO and RPO in AWS?**
-**RTO** (Recovery Time Objective) : is a measure of how quickly can your application recover after an outage
+**RTO** (Recovery Time Objective): is a measure of how quickly can your application recover after an outage
 **RPO** (Recovery Point Objective): is a measure of the maximum amount of data loss that your application can tolerate.
 
   
-16. ** What’s DevOps tools on AWS?**
+16. ** What are DevOps tools on AWS?**
 	- AWS CodePipeline: Software Release Workflows
 	- AWS CodeBuild: Build and Test Code
 	- AWS CodeDeploy: Deployment Automation
 	- AWS CodeStar: Unified CI/CD Projects
 	- AWS CodeCommit: Private Git Hosting
-	- Lambda, Amazon Elastic Container Registry (ECR) , Amazon Elastic Kubernetes Service (EKS)
+	- Lambda, Amazon Elastic Container Registry (ECR), Amazon Elastic Kubernetes Service (EKS)
 
 
 
@@ -130,7 +130,7 @@ Amazon maps-out typical latency between IP addresses and AWS regions.
 
   
 
-17. **What’s difference between container vs VM?**
+17. **What’s the difference between container vs VM?**
 
 ![A container showing the differences between virtual machines and containers.](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.003.png)
 
@@ -152,13 +152,13 @@ containers abstract application layer, vm abstract os
 
   
 
-18. **What’s Docker Image layers?**
+18. **What are Docker Image layers?**
 Layers are a result of the way Docker images are built. Each step in a Dockerfile creates a new “layer” that’s essentially a diff of the filesystem changes since the last step.
 Metadata instructions such as LABEL and MAINTAINER do not create layers because they don’t affect the filesystem.
 
   
 
-19. **What’s difference between Entrypoint and CMD?**
+19. **What’s the difference between Entrypoint and CMD?**
 **CMD** describes the default container parameters or commands. The user can easily override the default command when you use this.
 
 	**ENTRYPOINT** - A container with an ENTRYPOINT is preferred when you want to define an executable.
@@ -171,10 +171,10 @@ entrypoint not override, CMD overwrite with before actions
 
   
 
-20. **What’s multiple base images on Dockerfile?**
+20. **What are multiple base images on Dockerfile?**
 	It allows you to create multiple image layers on top of the previous layers and the **AS** command provides a virtual name to the intermediate image layer. The last FROM command in the dockerfile creates the actual final image
-- the idea that you have two images, the first one you build your binaries files and copy them to the second one, the second image is the final image which from it you run your container. the first image helped you to build the second one.
-- The benifit you get from this that you built your app on a large image and the final result is light weight image which is on your containers.  
+- the idea that you have two images, the first one you build your binaries files and copy them to the second one, and the second image is the final image which from it you run your container. the first image helped you to build the second one.
+- The benefits you get from this are that you built your app on a large image and the final result is a lightweight image that is on your containers.  
 
 ![Graphical user interface, text, application
 
@@ -184,7 +184,7 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
 
   
 
-21. **What’s types of Docker volumes?**
+21. **What are types of Docker volumes?**
 **Named volumes** have a specific source from outside the container, for example, awesome:/bar .
 
 	**Anonymous volumes** have no specific source, therefore, when the container is deleted, you can instruct the Docker Engine daemon to remove them.
