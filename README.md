@@ -237,11 +237,7 @@ To adapt, software development, maintenance, and upgrading must incorporate secu
 	- Monitor.
 
   
-
-<img width="160" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/a5998ebe-3da7-41ba-b76d-c11bd2fedce1">
-
-
-  
+<img width="460" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/57c095a5-d0d5-4315-9854-17fb10b08706">
   
 
 ## Linux Questions:
@@ -258,7 +254,8 @@ Reverse proxies are typically implemented to help increase security, performance
 
   
 
-<img width="169" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/f2ffa5e7-f527-4cbb-88a4-e5ab6c8442e7">
+<img width="353" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/bc363971-d20d-423e-9382-20d2b11ccfd0">
+
 
 
 27. **How can optimize performance for Nginx?**
@@ -332,9 +329,8 @@ Bootstrapping in computer science is **the technique for producing a self-compil
 
 	  The Linux filesystem unifies all physical hard drives and partitions into a single directory structure, this is how you sort your data inside the storage.
 
+<img width="275" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/c38ac75e-00ce-4d18-8f03-90ee27605f3e">
 
-  
-<img width="165" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e0a26785-2ede-4e48-9fec-bd6d2b906e9f">
 
 
   
@@ -411,9 +407,9 @@ The main componehnts of a Kubernetes cluster include: **Nodes, Image Registry, P
 	The **LoadBalancer** type is an extension of the **NodePort** type. So a Service of type **LoadBalancer** has a cluster IP address and one or more **nodePort** values.
 
   
-<img width="381" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e1d20d8d-9317-45f9-a38b-3d3fdd202fca">
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e4e43c46-7a7d-4e2f-9bd8-5b20aff34df5)
 
-<img width="539" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/5f4da5fc-7ad9-4b11-acde-19082c49d0bf">
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e43b8466-69ab-48fa-a5b9-d22adaf53c3f)
 
 
 43. **What’s the difference between deployment vs DaemonSet vs StatfulSet?**
@@ -426,11 +422,14 @@ The main componehnts of a Kubernetes cluster include: **Nodes, Image Registry, P
 	**A Daemonset will not run more than one replica per node**. Another advantage of using a Daemonset is that, if you add a node to the cluster, then the Daemonset will automatically spawn a pod on that node, which a deployment will not do
 
   
-<img width="278" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/d13f9428-bcb8-480a-af59-f02f0cc346eb">
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/aac25788-f74c-4d3e-9a15-7d0174fb3980)
 
-<img width="240" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/fc0582fb-c862-4a9c-a733-ba8dd6384cb0">
 
-<img width="239" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/132db82f-aee5-40bc-9ea8-786cd237b437">
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/67c1aaa1-18e8-4384-ab7e-41f2a65aa832)
+
+
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/df977628-dd54-481b-9b88-95a573f47be3)
+
 
   
 
@@ -613,11 +612,7 @@ Ansible uses existing privilege escalation systems to execute tasks with root pr
 74. **What’s Azure DevOps?**
 Azure DevOps supports a collaborative culture and set of processes that bring together developers, project managers, and contributors to develop
 
-  
-
-<img width="373" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/6a108955-d136-410a-abfa-eaac1d6ee4dd">
-
-  
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/d18bb3ef-b8c2-4fbc-a400-1a62fafde352)
 
 74. **What’s Git forking?**
 Forking is a git clone operation executed on a server copy of a project's repo.
