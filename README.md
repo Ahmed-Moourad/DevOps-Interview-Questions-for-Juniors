@@ -15,7 +15,7 @@
 	- Compute-Optimized Instances
 	- Storage Optimized Instances
 
-![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/3fe160f6-adc0-4236-b216-510963227316)
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/f1cd6e00-8218-4d26-9f0e-066be57576e8)
 
 	
  2. **What’s VPC?**
