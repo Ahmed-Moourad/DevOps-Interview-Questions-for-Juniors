@@ -4,7 +4,7 @@
 **Disclaimer:**
 - You are welcome to edit and add Questions/answers through Pull Request
 - These questions are for the Junior/beginner in the DevOps field
-- These questions are not for specific company/entity , this cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
+- These questions are not for specific companies/entities, this cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
 
 ## AWS Questions:
 
@@ -36,7 +36,7 @@ NACL can be understood as the firewall or protection for the subnet. (stateless)
 The instances in the public subnet can send outbound traffic directly to the internet.(Via Internet Gatway).
 Whereas the instances in the private subnet can't. Instead, the instances in the private subnet can access the internet by using a network address translation (NAT) gateway that resides in the public subnet.
 
-6. **How can an application access internet without receiving requests from the internet?**
+6. **How can an application access Internet without receiving requests from the internet?**
 Using NAT configured in the Routing Table.
 The database servers can connect to the internet for software updates using the NAT gateway, but the internet cannot establish connections to the database servers.
 
@@ -64,8 +64,8 @@ obtaining the best pricing and terms for IT purchases, standardizing, simplifyin
   
 
 9. **What are the types of Database engines on AWS?**
-	- Amazon RDS is available on several database instance types - optimized for memory, performance or I/O – and provides you with **six familiar database engines** to choose from, including: 
-Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server .
+	- Amazon RDS is available on several database instance types - optimized for memory, performance, or I/O – and provides you with **six familiar database engines** to choose from, including: 
+Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
 	- Ledger: Amazon Quantum Ledger Database (Amazon QLDB)
 	- Document: Amazon DocumentDB (with MongoDB compatibility)
 	- No SQL: DynamoDB
@@ -87,7 +87,7 @@ Your subscription to Shield Advanced covers the basic AWS WAF fees for web ACLs,
 
   
 
-11. **What’s difference between S3 vs EBS vs EFS?**
+11. **What’s the difference between S3 vs EBS vs EFS?**
 **S3**: Object Storage
 **EBS**: File System Storage (Connected to one EC2) scalable network file storage
 **EFS**: scalable network file storage (Can be connected to many EC2)
@@ -185,7 +185,7 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
   
 
 21. **What are types of Docker volumes?**
-**Named volumes** have a specific source from outside the container, for example, awesome:/bar .
+**Named volumes** have a specific source from outside the container, for example, awesome:/bar.
 
 	**Anonymous volumes** have no specific source, therefore, when the container is deleted, you can instruct the Docker Engine daemon to remove them.
 	
@@ -199,16 +199,16 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
 
   
 
-22. **What are types of Docker networks?**
+22. **What are the types of Docker networks?**
 bridge, overlay, host, none
 
   
 
-23. **What’s difference between COPY and ADD?**
+23. **What’s the difference between COPY and ADD?**
 
-	**COPY** takes in a source and destination. It only lets you copy in a local or directory from your host (the machine-building the Docker image) into the Docker image itself.
+	**COPY** takes in a source and destination. It only lets you copy in a local or directory from your host (the machine building the Docker image) into the Docker image itself.
 	
-	**ADD** does that same but in addition, it also supports 2 other sources:
+	**ADD** does the same but in addition, it also supports 2 other sources:
 A URL instead of a local file/directory. &&&& Extract tar from the source directory into the destination.
 
   
@@ -217,9 +217,9 @@ A URL instead of a local file/directory. &&&& Extract tar from the source direct
 	- Run the container as a non-root user. ...
 	- Remove unnecessary packages/software from the image. ...
 
-	Enable Docker Content Trust (DCT) ... Content trust is disabled by default in the Docker Client. To enable it, set the DOCKER\_CONTENT\_TRUST environment variable to 1 . This prevents users from working with tagged images unless they contain a signature.
+	Enable Docker Content Trust (DCT) ... Content trust is disabled by default in the Docker Client. To enable it, set the DOCKER\_CONTENT\_TRUST environment variable to 1. This prevents users from working with tagged images unless they contain a signature.
 	- Use COPY instead of ADD in Dockerfile. ...
-	- Do not store any secret in Dockerfile. ...
+	- Do not store any secrets in Dockerfile. ...
 	- Install verified packages and use trusted base images.
 \-----
 
@@ -231,10 +231,10 @@ A URL instead of a local file/directory. &&&& Extract tar from the source direct
 	6. Do Not Install Unnecessary Packages in the Container. ...
 	7. Add the HEALTHCHECK Instruction to the Container Image.
 
-25. **What are Stages of DevSecOps?**
+25. **What are the Stages of DevSecOps?**
 To adapt, software development, maintenance, and upgrading must incorporate security awareness into each stage.
 
-	- Plan. The planning phases of DevSecOps is the least automated with the involvement of collaboration, discussion, review, and a strategy for security analysis. ...
+	- Plan. The planning phases of DevSecOps are the least automated with the involvement of collaboration, discussion, review, and a strategy for security analysis. ...
 	- Code. ...
 	- Build. ...
 	- Test. ...
@@ -256,11 +256,11 @@ To adapt, software development, maintenance, and upgrading must incorporate secu
 
   
 
-26. **What’s difference between Reverse Proxy and Web Server?**
+26. **What’s the difference between Reverse Proxy and Web Server?**
 
 	**A web server** listens for HTTP requests and reacts to them by sending back an HTTP response.
 	
-	**A reverse proxy** is a web server which determines what response to make by also implementing an HTTP client. Client A makes an HTTP request to the reverse proxy. The reverse proxy makes an HTTP request to Server B.
+	**A reverse proxy** is a web server that determines what response to make by also implementing an HTTP client. Client A makes an HTTP request to the reverse proxy. The reverse proxy makes an HTTP request to Server B.
 
 Reverse proxies are typically implemented to help increase security, performance, and reliability.
 
@@ -316,17 +316,17 @@ Tip 7 – Configure HTTP/2 Support.
 
   
 
-34. **How could you mount volume in Linux?**
+34. **How could you mount a volume in Linux?**
 	1. Identify the USB drive using the `lsblk` command.
 	2. Create a directory to mount the USB drive into. 
-	3. Check if it formated or not
+	3. Check if it formatted or not
 	4. Mount the USB drive to the /media/pendrive directory using the `mount` command. 
 	5. Check the drive has been mounted by re-running lsblk.
 
   
 
 
-35. **What’s Linux boot strap processes?**
+35. **What are Linux bootstrap processes?**
 Bootstrapping in computer science is **the technique for producing a self-compiling compiler**. That is compiler/assembler written in the source programming
 
   
@@ -339,7 +339,7 @@ Bootstrapping in computer science is **the technique for producing a self-compil
 
 	  
 
-36. **Tell me about Linux file systems?**
+36. **Tell me about Linux file systems.**
 
 	  The Linux filesystem unifies all physical hard drives and partitions into a single directory structure, this is how you sort your data inside the storage.
 
@@ -355,13 +355,13 @@ Bootstrapping in computer science is **the technique for producing a self-compil
 
 	  
 
-38. **What’s Selinux and how can using it?**
+38. **What’s Selinux and how can use it?**
 SELinux defines access controls for the applications, processes, and files on a system. It uses security policies, which are a set of rules that tell SELinux what can or can't be accessed, to enforce the access allowed by a policy
 
   
 
 
-39. **What’s /dev/null directory?**
+39. **What’s the /dev/null directory?**
 The null device is typically used for disposing of unwanted output streams of a process, or as a convenient empty file for input streams. This is usually done by redirection. The /dev/null device is **a special file, not a directory, so one cannot move a whole file or directory into it with the Unix mv command**.
 
   
@@ -374,21 +374,21 @@ The null device is typically used for disposing of unwanted output streams of a 
 
   
 
-40. **What’s Kubernetes architecture components and explain it?**
-The main componehnts of a Kubernetes cluster include: **Nodes , Image Registry, Pods**
+40. **What are Kubernetes architecture components and explain them?**
+The main componehnts of a Kubernetes cluster include: **Nodes, Image Registry, Pods**
 \-------------------------------------------
 **Kubernetes Core Components: Control Plane(Master Node):**
 	-  **kube-apiserver**. Provides an API that serves as the front end of a Kubernetes control plane. ...
-	-  **etcd**: The key value store where all data relating to the cluster is stored
+	-  **etcd**: The key-value store where all data relating to the cluster is stored
 	-  **kube-scheduler**. When a new Pod is created, this component assigns it to a node for execution based on resource requirements, policies, and ‘affinity’ specifications regarding geolocation and interference with other workloads.
 	-  **kube-controller-manager**. Although a Kubernetes cluster has several controller functions, they are all compiled into a single binary known as kube-controller-manager.
 \-----------------------------------------------
 	**Node components include: (Worker Node)**
-	- **kubelet**: Every node has an agent called kubelet. It ensures that the container described in PodSpecs are up and running properly.
-	- **kube-proxy**: A network proxy on each node that maintains network nodes which allows for the communication from Pods to network sessions, whether inside or outside the cluster, using operating system (OS) packet filtering if available.
+	- **kubelet**: Every node has an agent called kubelet. It ensures that the container described in PodSpecs is up and running properly.
+	- **kube-proxy**: A network proxy on each node that maintains network nodes that allow for the communication from Pods to network sessions, whether inside or outside the cluster, using operating system (OS) packet filtering if available.
 	- **container runtime**: Software responsible for running the containerized applications. Although Docker is the most popular, Kubernetes supports any runtime that adheres to the Kubernetes CRI (Container Runtime Interface).
 
-41. **What’s difference between Master and Worker Node?** 
+41. **What’s the difference between Master and Worker Node?** 
 **Worker Node**:
 	- Do all the Work
 	- Responsible for running the containers and doing any work assigned to them by the master node
@@ -397,9 +397,9 @@ The main componehnts of a Kubernetes cluster include: **Nodes , Image Registry, 
 
 	**Master Node**:
 	- Create the control plane
-	- Looks after: scheduling and scaling applications. maintaining the state of the cluster.
+	- Looks after scheduling and scaling applications. maintaining the state of the cluster.
 	- 1 or two nodes
-	- Consist of **4** components: etcd, kube controller manager, kube-api-server, kube-schedular
+	- Consist of **4** components: etcd, kube controller manager, kube-API-server, kube-schedular
 
   
 
@@ -415,7 +415,7 @@ The main componehnts of a Kubernetes cluster include: **Nodes , Image Registry, 
 	-  **Headless**: when you want a Pod grouping, but don't need a stable IP address.
 
   
-	The **NodePort** type is an extension of the **ClusterIP** type. So a Service of type NodePort has a cluster IP address.
+	The **NodePort** type is an extension of the **ClusterIP** type. So a Service of the type NodePort has a cluster IP address.
 
 	  
 
@@ -429,7 +429,7 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
 
 **
 
-43. **What’s difference between deployment vs DaemonSet vs StatfulSet?**
+43. **What’s the difference between deployment vs DaemonSet vs StatfulSet?**
 - **Deployments** and ReplicationControllers are meant for stateless usage and are rather lightweight.
 - **Statefulsets**: is used for Stateful applications (DB), each replica of the pod will have its own state, and will be using its own Volume.
 - **DaemonSet**: is a controller similar to **ReplicaSet** that ensures that the pod runs on all the nodes of the cluster.
@@ -448,7 +448,7 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
 
   
 
-44. **What’s difference between ReplicaController and ReplicaSet?**
+44. **What’s the difference between ReplicaController and ReplicaSet?**
 The rolling-update command works with Replication Controllers, but won't work with a Replica Set.
 
   
@@ -460,7 +460,7 @@ The rolling-update command works with Replication Controllers, but won't work wi
   
   
 
-46. **How can create variable for your deployment and how can secure it?**
+46. **How can create a variable for your deployment and how can secure it?**
 
 	  **Secrets** can be mounted as data volumes or exposed as environment variables to be used by a container in a Pod.
 Secrets can also be used by other parts of the system, without being directly exposed to the Pod.
@@ -469,10 +469,10 @@ Secrets can also be used by other parts of the system, without being directly ex
 
 47. **Is it possible to create multiple containers in one pod?**
 YES – but better be one container/Pod
-because each container should do one task so if you have 2 containers in a pod and you near to incease one container because its service/task have a lot of traffic ... then k8s will create new pod with two conatiners that the second is not doing anything so you are wasting your compute capacity.
+because each container should do one task so if you have 2 containers in a pod and you are near to increase one container because its service/task has a lot of traffic ... then k8s will create a new pod with two containers that the second is not doing anything so you are wasting your compute capacity.
 
 
-48. **What’s Sidecar container?**
+48. **What’s a Sidecar container?**
 	- Sidecar containers are containers that run along with the main container in a pod. You can define any number of sidecar containers to run alongside the main container
 	- The sidecar containers can also share storage volumes with the main containers, allowing the main containers to access the data in the sidecars.
 	- The primary application can run independently in one container while the sidecar hosts complementary processes and tools
@@ -489,23 +489,23 @@ a network proxy that runs on each node in your cluster, implementing part of the
 
   
 
-51. **What’s difference between liveness vs readiness vs startup probes?**
+51. **What’s the difference between liveness vs readiness vs startup probes?**
 **liveness**:
   **Liveness Probe**: Checks if a container is running properly and restarts it if the probe fails.
 **Readiness Probe**: Checks if a container is ready to receive network traffic and delays routing until it becomes ready.
 **Startup Prob**e: Checks the initial startup readiness of a container, helping differentiate slow starts from unresponsive containers.
 
-52. **What’s the operator of Database?**
-The DB Operator eases the pain of managing PostgreSQL and MySQL instances for applications running in Kubernetes. The Operator creates databases and make them available in the cluster via Custom Resource. It is designed to support the on demand creation of test environments in CI/CD pipelines.
+52. **What’s the operator of the Database?**
+The DB Operator eases the pain of managing PostgreSQL and MySQL instances for applications running in Kubernetes. The Operator creates databases and makes them available in the cluster via Custom Resource. It is designed to support the on-demand creation of test environments in CI/CD pipelines.
 
   
 
-53. **What’s the static pods?**
+53. **What are the static pods?**
 Static Pods are managed directly by the kubelet daemon on a specific node, without the API server observing them
 
   
 
-54. **What’s helm and helm charts?**
+54. **What are helm and helm charts?**
 Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish — so start using Helm and stop the copy-and-paste.
 Helm uses a packaging format called charts. A chart is a collection of files that describe a related set of Kubernetes resources
 
@@ -516,10 +516,10 @@ A custom resource is an **extension of the Kubernetes API** that is not necessar
 
   
 
-56. **What’s difference between Ingress and IngressPolicy?**
-**Ingress Resource**: object with a set of routing rules.
-Ingress concept lets you map traffic to different backends based on rules you define via the Kubernetes API.
-**IngressPolicy** (Ingress rules) allows connections to all pods in the "default" namespace with the label "role=db" on TCP port 6379 from: any pod in the "default" namespace with the label "role=frontend" any pod in a namespace with the label "project=myproject"
+56. **What’s the difference between Ingress and IngressPolicy?**
+**Ingress Resource**: an object with a set of routing rules.
+The Ingress concept lets you map traffic to different backends based on rules you define via the Kubernetes API.
+**IngressPolicy** (Ingress rules) allows connections to all pods in the "default" namespace with the label "role=db" on TCP port 6379 from: any pod in the "default" namespace with the label "role=frontend" and any pod in a namespace with the label "project=myproject"
 
   
 
@@ -538,7 +538,7 @@ continuous integration, continuous delivery, and continuous deployment.
 
   
 
-a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins. A continuous delivery pipeline is an automated expression of your process for getting software from version control right through to your users and customers.
+a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins. A continuous delivery pipeline is an automated expression of your process for getting software from version control right through to your users and customers.
 
   
 
@@ -546,21 +546,21 @@ a suite of plugins which supports implementing and integrating continuous delive
 
   
 
-The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the jobs. It will also monitor the slave state (offline or online) and get back the build result responses from slaves and the display build results on the console output.
+The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the jobs. It will also monitor the slave state (offline or online) and get back the build result responses from slaves and display build results on the console output.
 
   
 
 60. **What’s Jenkins Shared Library?**
-It is a feature that allows you to define reusable code in a version-controlled repository and share it across Jenkins pipelines. It promotes code reuse, consistency, and simplifies pipeline maintenance.
+It is a feature that allows you to define reusable code in a version-controlled repository and share it across Jenkins pipelines. It promotes code reuse, and consistency, and simplifies pipeline maintenance.
  A shared library in Jenkins is a collection of Groovy scripts shared between different Jenkins jobs
 Each shared library requires users to define a name and a method of retrieving source code.
 
 61. **What’s Java Spring Boot?**
-Java Spring Boot (Spring Boot) is a tool that makes developing web application and microservices with Spring Framework faster and easier through three core capabilities: Autoconfiguration. An opinionated approach to configuration. The ability to create standalone applications.
+Java Spring Boot (Spring Boot) is a tool that makes developing web applications and microservices with Spring Framework faster and easier through three core capabilities: Autoconfiguration. An opinionated approach to configuration. The ability to create standalone applications.
 
   
 
-62. **What’s difference between Rolling Strategy and Blue-Green Strategy?**
+62. **What’s the difference between Rolling Strategy and Blue-Green Strategy?**
 **Rolling deployments** follow a staggered delivery pattern that gradually replaces instances of the existing environment with updated versions. 
 **Blue-green deployments** involve creating a rigorously-tested second environment before completely shifting the current instance to the new environment.
 
@@ -569,12 +569,12 @@ empowers all developers to write cleaner and safer code
 Code Quality Assurance tool that collects and analyzes source code, and provides reports for the code quality of your project
 
 64. **What’s API?**
-a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service
+a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or another service
 
   
 
-65. **How can writing bash script?**
-	1. reate a file using a vi editor(or any other editor). Name script file with extension . sh.
+65. **How can writing a bash script?**
+	1. create a file using a vi editor(or any other editor). Name script file with extension.sh.
 	2. Start the script with #! /bin/sh.
 	3. Write some code.
 	4. Save the script file as filename.sh.
@@ -583,16 +583,16 @@ a set of functions and procedures allowing the creation of applications that acc
   
   
 
-66. **What’s difference between `awk` vs `sed`?**
+66. **What’s the difference between `awk` vs `sed`?**
 **`sed`** is a command utility that works with streams of characters for searching, filtering and text processing
-**`awk`** more powerful and robust than sed with sophisticated programming constructs such as ifelse, while, do/while
+**`awk`** is more powerful and robust than sed with sophisticated programming constructs such as ifelse, while, do/while
 
   
 
-67. **How can create variables in ansible?**
+67. **How can create variables in Ansible?**
  define a variable dynamically when you run a playbook, **use the --extra-vars option along with the key and value of the variable you want to define**. In this example, the key is my\_var because that's the string referenced in the playbook, and the value is any string you want the variable to contain
 
-68. **What’s modules and tasks in ansible playbook?**
+68. **What are modules and tasks in Ansible playbook?**
 Ansible Playbooks are **lists of tasks that automatically execute against hosts**. Groups of hosts form your Ansible inventory. Each module within an Ansible Playbook performs a specific task
   
 **Modules**: Standalone code units in Ansible for specific tasks on managed hosts.
@@ -605,26 +605,26 @@ Ansible Playbooks are **lists of tasks that automatically execute against hosts*
 **Dynamic Inventory**: Retrieves inventory information dynamically from external sources.
 **Multiple Inventory**: Allows the use of multiple static inventory files for organizing and managing inventory across different environments or projects.
 Using inventory directories and multiple inventory sources. Static groups of dynamic groups. If your Ansible inventory fluctuates over time with hosts spinning up and shutting down in response to business demands, the static inventory solutions will not serve your needs.
-Multiple Inventory :You may need to track hosts from multiple sources: cloud providers, LDAP, Cobbler, and/or enterprise CMDB systems.
+Multiple Inventory:You may need to track hosts from multiple sources: cloud providers, LDAP, Cobbler, and/or enterprise CMDB systems.
 
   
 
-71. **What’s path of ansible configuration?**
+71. **What’s the path of ansible configuration?**
 /etc/ansible/ansible. cfg
 
   
 
-72. **What’s difference between ansible and chef?**
-Ansible: uses YAML (easy) , Agentless
-Chef and Puppet: uses Ruby (Difficult), needs agent and updates is headache.
+72. **What’s the difference between ansible and chef?**
+Ansible: uses YAML (easy), Agentless
+Chef and Puppet: uses Ruby (Difficult), needs an agent and updates are a headache.
 
   
 
-73. **What’s privilege escalation in ansible?**
+73. **What’s privilege escalation in Ansible?**
 Ansible uses existing privilege escalation systems to execute tasks with root privileges or with another user’s permissions. Because this feature allows you to ‘become’ another user, different from the user that logged into the machine (remote user), we call it become. The become keyword uses existing privilege escalation tools like *sudo*, *su*, *pfexec*, *doas*, *pbrun*, *dzdo*, *ksu*, *runas*, *machinectl* and others.
 
 
-74. **What’s Azure Devops?**
+74. **What’s Azure DevOps?**
 Azure DevOps supports a collaborative culture and set of processes that bring together developers, project managers, and contributors to develop
 
   
@@ -633,29 +633,29 @@ Azure DevOps supports a collaborative culture and set of processes that bring to
 
   
 
-74. **What’s Git froking?**
-Forking is a git clone operation executed on a server copy of a projects repo.
+74. **What’s Git forking?**
+Forking is a git clone operation executed on a server copy of a project's repo.
 A fork in Git is simply a copy of an existing repository in which the new owner disconnects the codebase from previous committers. A fork often occurs when a developer becomes dissatisfied or disillusioned with the direction of a project and wants to detach their work from that of the original project.
 
   
 
 75. **Is it better to fork or clone in Git?**
-If you would like to make changes directly to a repository you have the permission to contribute to, then **cloning** will be the first step before we implement the actual changes and push.
-If you don't have permissions to contribute to the repository, but would like to implement changes anyway, a **fork** is the way to go.
+If you would like to make changes directly to a repository you have permission to contribute to, then **cloning** will be the first step before we implement the actual changes and push.
+If you don't have permission to contribute to the repository but would like to implement changes anyway, a **fork** is the way to go.
 
   
 
-76. **What’s difference between statefull vs stateless?**
+76. **What’s the difference between stateful vs stateless?**
 **stateless** system sends a request to the server and relays the response (or the state) back without storing any information.
-**stateful** systems expect a response, track information, and resend the request if no response is received.
-- Stateless Protocol is a network protocol in which Client send request to the server and server response back as per the given state.
-- Stateful Protocol is a network protocol in which if client send a request to the server then it expects some kind of response, in case of no response then it resend the request.
+**Stateful** systems expect a response, track information, and resend the request if no response is received.
+- Stateless Protocol is a network protocol in which the Client sends a request to the server and the server responds back as per the given state.
+- Stateful Protocol is a network protocol in which if a client sends a request to the server then it expects some kind of response, in case of no response then it resends the request.
 
   
 
-77. **What’s message broker? Or message queue (MQ)**
+77. **What’s a message broker? Or message queue (MQ)**
 Way of how the microservices communicate
-A message broker is software that enables applications, systems, and services to communicate with each other and exchange information. EX: redis , Rabbit MQ
+A message broker is a software that enables applications, systems, and services to communicate with each other and exchange information. EX: redis, Rabbit MQ
 
   
 
@@ -663,8 +663,8 @@ A message broker is software that enables applications, systems, and services to
 A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. Ex: Amazon CloudFront.
 
 
-79. **What's types of api?**
-Five types of API are:
+79. **What are types of API?**
+Five types of APIs are:
 1) Open API
 2) Partner API 4) High-level
 3) Internal API 5) Low-level API
