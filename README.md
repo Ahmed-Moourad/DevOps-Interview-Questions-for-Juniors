@@ -14,6 +14,8 @@
 	- Memory-Optimized Instances
 	- Compute-Optimized Instances
 	- Storage Optimized Instances
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/3fe160f6-adc0-4236-b216-510963227316)
+
 	
  2. **What’s VPC?**
 A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center.
