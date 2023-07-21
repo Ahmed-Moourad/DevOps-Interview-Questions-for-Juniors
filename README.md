@@ -46,8 +46,8 @@ The database servers can connect to the internet for software updates using the 
   
 7. **Design Architecture for web application contains 3 tiers: Frontend, Backend, and Database?**
 
-  **![Diagram**
-Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.002.jpeg)
+  ![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/cc5d5560-885f-42a0-8a9c-371baff370ac)
+
 
   
 
@@ -135,22 +135,15 @@ Amazon maps out typical latency between IP addresses and AWS regions.
 
 17. **What’s the difference between container vs VM?**
 
-![A container showing the differences between virtual machines and containers.](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.003.png)
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e5eb4f75-82d4-4b39-8ac7-e5c5a428fb0d)
 
-|Use separate OS for each VM|Use the Host OS|
-
-| :-: | :-: |
-
-||Less utilization|
-
-||Your app backed I container and shared between environments: DEV, TEST, OPERATION|
-
-||Less size|
-
-||Fast boot up|
-
-  
-
+**VM**: uses separate OS for each VM
+**Containers**:
+- Use the Host OS
+- Less utilization
+- Your app is backed in a container and shared between environments: DEV, TEST, OPERATION
+- Less size
+- Fast boot up
 containers abstract application layer, vm abstract os
 
   
@@ -179,11 +172,8 @@ entrypoint not override, CMD overwrite with before actions
 - the idea that you have two images, the first one you build your binaries files and copy them to the second one, and the second image is the final image which from it you run your container. the first image helped you to build the second one.
 - The benefits you get from this are that you built your app on a large image and the final result is a lightweight image that is on your containers.  
 
-![Graphical user interface, text, application
+<img width="306" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/2736c1b5-540a-40a4-833d-d38efaf2dc0e">
 
-  
-
-Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.004.png)
 
   
 
@@ -248,9 +238,8 @@ To adapt, software development, maintenance, and upgrading must incorporate secu
 
   
 
-![DevSecOps Tools | Atlassian](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.005.png)
+<img width="160" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/a5998ebe-3da7-41ba-b76d-c11bd2fedce1">
 
-**
 
   
   
@@ -269,11 +258,8 @@ Reverse proxies are typically implemented to help increase security, performance
 
   
 
-![Diagram
+<img width="169" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/f2ffa5e7-f527-4cbb-88a4-e5ab6c8442e7">
 
-  
-
-Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.006.jpeg)
 
 27. **How can optimize performance for Nginx?**
 
@@ -348,8 +334,8 @@ Bootstrapping in computer science is **the technique for producing a self-compil
 
 
   
+<img width="165" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e0a26785-2ede-4e48-9fec-bd6d2b906e9f">
 
-![Image result for • Tell me about Linux file systems?](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.007.png)
 
   
 
@@ -425,12 +411,10 @@ The main componehnts of a Kubernetes cluster include: **Nodes, Image Registry, P
 	The **LoadBalancer** type is an extension of the **NodePort** type. So a Service of type **LoadBalancer** has a cluster IP address and one or more **nodePort** values.
 
   
-![Diagram
-Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.008.png)
+<img width="381" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e1d20d8d-9317-45f9-a38b-3d3fdd202fca">
 
-![Service Types in Kubernetes?. A Service enables network access to a… | by Kubernetes Advocate | AVM Consulting Blog | Medium](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.009.jpeg)
+<img width="539" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/5f4da5fc-7ad9-4b11-acde-19082c49d0bf">
 
-**
 
 43. **What’s the difference between deployment vs DaemonSet vs StatfulSet?**
 - **Deployments** and ReplicationControllers are meant for stateless usage and are rather lightweight.
@@ -442,12 +426,11 @@ Description automatically generated](Aspose.Words.7bb1d836-d212-471e-b951-007d45
 	**A Daemonset will not run more than one replica per node**. Another advantage of using a Daemonset is that, if you add a node to the cluster, then the Daemonset will automatically spawn a pod on that node, which a deployment will not do
 
   
+<img width="278" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/d13f9428-bcb8-480a-af59-f02f0cc346eb">
 
-![Persistence in Deployment with Replicas](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.010.png)
+<img width="240" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/fc0582fb-c862-4a9c-a733-ba8dd6384cb0">
 
-![Persistence in StatefulSets with Replicas](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.011.png)
-
-![](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.012.png)![](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.013.png)![Persistence in Daemonsets](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.014.png)
+<img width="239" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/132db82f-aee5-40bc-9ea8-786cd237b437">
 
   
 
@@ -632,7 +615,7 @@ Azure DevOps supports a collaborative culture and set of processes that bring to
 
   
 
-![What Is Azure DevOps And Why Should We Use It?](Aspose.Words.7bb1d836-d212-471e-b951-007d45557e52.015.png)
+<img width="373" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/6a108955-d136-410a-abfa-eaac1d6ee4dd">
 
   
 
