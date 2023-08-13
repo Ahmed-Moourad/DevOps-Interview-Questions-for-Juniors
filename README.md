@@ -1,4 +1,6 @@
-<p align="center">![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/793c2963-7bdf-4dc6-9781-065158256578)
+<p align="center">
+	![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/c2adb7f2-3245-4654-bb88-0b7102f2ce55)
+
 </p>
 
 # DevOps Interview Questions for Juniors
