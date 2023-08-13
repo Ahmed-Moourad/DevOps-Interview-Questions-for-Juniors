@@ -1,5 +1,5 @@
 <p align="center">
-![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/5b395547-5bb4-4795-9512-42bc274be7d2)
+![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/793c2963-7bdf-4dc6-9781-065158256578)
 </p>
 
 # DevOps Interview Questions for Juniors
