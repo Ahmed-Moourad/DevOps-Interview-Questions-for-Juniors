@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="200" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/c2adb7f2-3245-4654-bb88-0b7102f2ce55" alt="DevOps Q&A">
+	<img width="400" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/c2adb7f2-3245-4654-bb88-0b7102f2ce55" alt="DevOps Q&A">
 </p>
 
 # DevOps Interview Questions for Juniors
