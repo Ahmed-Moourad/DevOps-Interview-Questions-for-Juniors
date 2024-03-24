@@ -171,11 +171,11 @@ Amazon maps out typical latency between IP addresses and AWS regions.
 	- Lambda, Amazon Elastic Container Registry (ECR), Amazon Elastic Kubernetes Service (EKS)
 
 
-
-## Docker Questions:
-
 </b></details>	
   
+## Docker Questions:
+
+
 <details><summary>
 17. What’s the difference between container vs VM?</summary><br><b>
 
@@ -301,11 +301,11 @@ To adapt, software development, maintenance, and upgrading must incorporate secu
   
 <img width="460" alt="image" src="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/57c095a5-d0d5-4315-9854-17fb10b08706">
   
+</b></details>
 
 ## Linux Questions:
 
-</b></details>	
-  
+	
 <details><summary>
 26. What’s the difference between Reverse Proxy and Web Server?</summary><br><b>
 
@@ -442,16 +442,10 @@ SELinux defines access controls for the applications, processes, and files on a 
 
 The null device is typically used for disposing of unwanted output streams of a process, or as a convenient empty file for input streams. This is usually done by redirection. The /dev/null device is **a special file, not a directory, so one cannot move a whole file or directory into it with the Unix mv command**.
 
-  
-  
-  
-  
-  
-
+</b></details>	
+    
 ## Kubernetes Questions:
 
-</b></details>	
-  
 <details><summary>
 40. What are Kubernetes architecture components and explain them?</summary><br><b>
 
@@ -638,12 +632,11 @@ A custom resource is an **extension of the Kubernetes API** that is not necessar
 The Ingress concept lets you map traffic to different backends based on rules you define via the Kubernetes API.
 **IngressPolicy** (Ingress rules) allows connections to all pods in the "default" namespace with the label "role=db" on TCP port 6379 from: any pod in the "default" namespace with the label "role=frontend" and any pod in a namespace with the label "project=myproject"
 
-  
-
+</b></details>	
+    
 ## **General Questions:**
 
-</b></details>	
-  
+
 <details><summary>
 57. What’s CICD?</summary><br><b>
 
