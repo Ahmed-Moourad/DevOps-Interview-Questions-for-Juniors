@@ -447,49 +447,62 @@ The null device is typically used for disposing of unwanted output streams of a 
 
 ## Linux Scenario Based Questions:
 
-Q: You notice a sudden spike in server CPU utilization. How would you troubleshoot and identify the root cause?
+<details><summary>
+Q: You notice a sudden spike in server CPU utilization. How would you troubleshoot and identify the root cause?</summary><br><b>
 
 A: I would check CPU usage using `top` or `htop`, identify the culprit process with `ps` or `pidstat`, analyze logs for events, and optimize or scale resources accordingly.
-
-
-Q: A critical application on your Linux server is unresponsive. Walk me through the steps you would take to diagnose and resolve the issue.
+</b></details>	
+	  
+<details><summary>
+Q: A critical application on your Linux server is unresponsive. Walk me through the steps you would take to diagnose and resolve the issue.</summary><br><b>
 
 A: I'd use `ps` and `top` to identify the hung process, check logs for errors, restart the application or services, and monitor for improvements.
-
-
-Q: You need to deploy a new version of a web application on a Linux server without causing downtime. Explain the steps you would take to achieve a zero-downtime deployment.
+</b></details>	
+	  
+<details><summary>
+Q: You need to deploy a new version of a web application on a Linux server without causing downtime. Explain the steps you would take to achieve a zero-downtime deployment.</summary><br><b>
 
 A: Implement a load balancer, deploy the new version on one server at a time, validate each step, and update the load balancer to include new servers.
-
-
-Q: A team member accidentally deleted important files on a Linux server. How would you recover the lost data?
+</b></details>	
+	  
+<details><summary>
+Q: A team member accidentally deleted important files on a Linux server. How would you recover the lost data?</summary><br><b>
 
 A: I'd use file recovery tools like `extundelete` or `photorec`, avoid writing new data to prevent overwriting, and restore from backups if available.
-
-
-Q: Your Linux server is running out of disk space. What steps would you take to identify and resolve the issue, considering both short-term and long-term solutions?
+</b></details>	
+	  
+<details><summary>
+Q: Your Linux server is running out of disk space. What steps would you take to identify and resolve the issue, considering both short-term and long-term solutions?</summary><br><b>
 
 A: Identify large files with `du` and `df`, remove unnecessary files, implement log rotation, and consider long-term solutions like additional storage.
-
-
-Q: Explain how you would set up and configure a basic firewall on a Linux server to enhance its security.
+</b></details>	
+	  
+<details><summary>
+Q: Explain how you would set up and configure a basic firewall on a Linux server to enhance its security.</summary><br><b>
 
 A: Use `iptables` or `firewalld` to set up rules, allow only necessary ports and services, and regularly review and update firewall rules.
-
-
-Q: Your team is working on a collaborative project, and you want to implement version control using Git on a Linux server. How would you set up and manage the Git repository?
+</b></details>	
+	  
+<details><summary>
+Q: Your team is working on a collaborative project, and you want to implement version control using Git on a Linux server. How would you set up and manage the Git repository?</summary><br><b>
 
 A: Initialize a Git repository with `git init`, add and commit files, push to a central repository, and collaborate using branches and pull requests.
-
-
-Q: You want to monitor the performance of your Linux server over time. What tools and techniques would you use for performance monitoring and analysis?
+</b></details>	
+	  
+<details><summary>
+Q: You want to monitor the performance of your Linux server over time. What tools and techniques would you use for performance monitoring and analysis?</summary><br><b>
 
 A: Use tools like `sar`, `vmstat`, and `iostat` for monitoring, set up alerts for abnormal behavior, and consider long-term solutions like Prometheus.
-
-
-Q: You are responsible for securing a Linux server. Outline the security measures and best practices you would implement to protect against potential threats.
+</b></details>	
+	  
+<details><summary>
+Q: You are responsible for securing a Linux server. Outline the security measures and best practices you would implement to protect against potential threats.</summary><br><b>
 
 A: Keep the system and software updated, configure a firewall, implement strong user authentication, regularly audit and review system logs, and apply the principle of least privilege.
+</b></details>	
+	
+	  
+> Ref for this questions: https://www.linkedin.com/posts/minakshi-chaudhari-7a0a26241_linux-devopscommunity-awsdevops-activity-7154113961519460352-YYcq?utm_source=share&utm_medium=member_desktop
 
 
 ## Kubernetes Questions:
