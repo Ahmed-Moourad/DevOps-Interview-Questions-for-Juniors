@@ -6,9 +6,10 @@
 > DevOps Interview Questions and Answers for Junior DevOps Engineers 
 
 **Disclaimer:**
-- You are welcome to edit and add Questions/answers through Pull Request
+
+📝 You are welcome to edit and add Questions/answers through Pull Request: read about contribution guidelines [here](How-to-contribute.md)
 - These questions are for the Junior/beginner in the DevOps field
-- These questions are not for specific companies/entities, this cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
+- These questions are not for specific companies/entities, they cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
 
 <h3 align="left">Included Tools:</h3>
 <p align="left"> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#aws-questions" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#docker-questions" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#linux-questions" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#general-questions" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#kubernetes-questions" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#general-questions" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors?tab=readme-ov-file#general-questions" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> Terraform,</a> Ansible, </a> and more coming ... 
@@ -183,6 +184,7 @@ Amazon maps out typical latency between IP addresses and AWS regions.
 ![image](https://github.com/Ahmed-Moourad/DevOps-Interview-Questions-for-Juniors/assets/112473376/e5eb4f75-82d4-4b39-8ac7-e5c5a428fb0d)
 
 **VM**: uses separate OS for each VM
+
 **Containers**:
 - Use the Host OS
 - Less utilization
